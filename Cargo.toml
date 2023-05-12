@@ -1,8 +1,8 @@
 [package]
 name = "termwrap"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-description = "Wrap text in terminal, optionally with Unicode and/or ANSI color codes"
+description = "Wrap Unicode text with ANSI color codes"
 repository = "https://github.com/qtfkwk/termwrap"
 license = "MIT"
 readme = "README.md"

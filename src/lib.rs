@@ -6,7 +6,7 @@ use unicode_segmentation::UnicodeSegmentation;
 mod tests;
 
 /**
-Wrap text in terminal, optionally with Unicode and/or ANSI color codes
+Wrap Unicode text with ANSI color codes
 */
 pub fn termwrap(s: &str, width: usize, continuation: &str) -> String {
     if width == 0 {

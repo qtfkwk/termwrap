@@ -1,4 +1,4 @@
-Wrap text in terminal, optionally with Unicode and/or ANSI color codes
+Wrap Unicode text with ANSI color codes
 
 ```rust
 use termwrap::termwrap;
