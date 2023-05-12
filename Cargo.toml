@@ -1,0 +1,14 @@
+[package]
+name = "termwrap"
+version = "0.1.0"
+edition = "2021"
+description = "Wrap text in terminal, optionally with Unicode and/or ANSI color codes"
+repository = "https://github.com/qtfkwk/termwrap"
+license = "MIT"
+readme = "README.md"
+keywords = [ "wrap", "fold", "string", "unicode", "color" ]
+categories = [ "text-processing" ]
+
+[dependencies]
+strip-ansi-escapes = "0.1.1"
+unicode-segmentation = "1.10.1"
