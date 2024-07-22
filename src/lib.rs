@@ -14,7 +14,7 @@ pub fn termwrap(s: &str, width: usize, continuation: &str) -> String {
     }
 
     // Input without ANSI color codes to graphemes
-    let b = String::from_utf8(strip_ansi_escapes::strip(s.as_bytes()).unwrap()).unwrap();
+    let b = String::from_utf8(strip_ansi_escapes::strip(s.as_bytes())).unwrap();
     let mut gb = b.graphemes(true).collect::<Vec<_>>();
 
     // Input graphemes
