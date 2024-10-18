@@ -108,6 +108,14 @@ cocomo -o sloccount
 cocomo
 ```
 
+# publish
+
+```
+cargo publish
+git push
+git push --tags
+```
+
 # full
 
 * update

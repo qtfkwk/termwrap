@@ -1,6 +1,6 @@
 [package]
 name = "termwrap"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 description = "Wrap Unicode text with ANSI color codes"
 repository = "https://github.com/qtfkwk/termwrap"
@@ -11,4 +11,4 @@ categories = [ "text-processing" ]
 
 [dependencies]
 strip-ansi-escapes = "0.2.0"
-unicode-segmentation = "1.11.0"
+unicode-segmentation = "1.12.0"
