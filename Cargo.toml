@@ -1,7 +1,7 @@
 [package]
 name = "termwrap"
-version = "0.1.4"
-edition = "2021"
+version = "0.2.0"
+edition = "2024"
 description = "Wrap Unicode text with ANSI color codes"
 repository = "https://github.com/qtfkwk/termwrap"
 license = "MIT"
