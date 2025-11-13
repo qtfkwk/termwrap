@@ -6,4 +6,5 @@
     * 0.1.4 (2025-02-20): Update dependencies; add `commit` target to makefile
 * 0.2.0 (2025-08-28): 2024 edition
     * 0.2.1 (2025-10-27): Update dependencies
+    * 0.2.2 (2025-11-13): clippy fixes
 
